@@ -7,7 +7,7 @@ class ChatController {
   }
 
   onMessage(data){
-    this.socket.broadcast("message", data);
+    this.socket.broadcastToAll("message", data);
     console.log(this.socket.id);
     console.log(data);
     
