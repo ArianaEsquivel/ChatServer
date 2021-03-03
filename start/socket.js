@@ -15,4 +15,4 @@
 
 const Ws = use('Ws')
 
-Ws.channel('chat', ({ socket }) =>'CaatController')
+Ws.channel("chat", "ChatController");
